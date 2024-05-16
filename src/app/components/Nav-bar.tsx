@@ -6,7 +6,7 @@ import ThemeToggle from "./ThemeToggle";
 
 async function NavBar() {
   return (
-    <header className="sticky w-full z-30 top-0 flex h-16 items-center md:gap-6 border-b bg-background p-8 md:px-6 mb-6">
+    <header className="sticky w-full z-30 top-0 flex h-16 items-center md:gap-6 border-b bg-background px-8 py-10 md:px-6 mb-6">
       <div className="relative">
         <Image
           priority
